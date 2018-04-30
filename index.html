@@ -1,0 +1,134 @@
+<head>
+ <title>Stephen St.Pierre Portfolio</title>
+ <meta charset="utf-8">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body class="overwrite-body">
+  <!--Begin Navbar-->
+  <header class="navbar navbar-default navbar-fixed-top" id="banner">
+  <div class="row container">
+    <a class="scrollable" href="#top"><div class='text-divider' style='height: 30px; width: 30px;'></div></a>
+      <!--Define collapsed behavior-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" id="nav-button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>        </button>
+    <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="scrollable active" href="#top" style="color:white"><span class="glyphicon glyphicon-user"></span> About</a></li>
+        <li class><a class="scrollable" href="#portfolio" style="color:white"><span class="glyphicon glyphicon-console"></span> Portfolio</a></li>
+        <li class><a class="scrollable" href="#contact" style="color:white"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+  </header>
+  
+  <main>
+  <div class="about jumbotron container-fluid" id="top">
+    <br><br>
+    <p class="text-center cursive">Stephen St.Pierre</p>
+    <div class="text-divider"></div>
+    <p class="text-center cursive" style="margin-top: 15px">Let's build something great.</p><hr>
+    <p class="text-center">Hello and welcome! I am an aspiring full-stack Web developer with practical experience in front and back-end technologies. From fully back-end Node.js scripts, to user-friendly Web portals leveraging API's for data visualization, I've worked with a diverse set of systems. I strive, however, to learn more and become officially certified in full-stack development!</p><hr>
+    <p class="text-center">Programmer Analyst - Front-End Certification Coming Soon</p>
+  </div>
+  <section id="portfolio">
+    <br>
+    <h2 class="text-center">Portfolio</h2>
+    <div class="row container-fluid img-row">
+      <div class="col-md-6">
+        <div class="adjacent-wells img-thumbnail">
+          <img class="img-responsive img-rounded img-sizer" src="http://platowebdesign.com/articles/wp-content/uploads/2014/10/public-domain-images-free-stock-photos-light-sky-silo-windows-lillyphotographer-1024x684.jpg" alt="stock photo">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="adjacent-wells img-thumbnail">
+        <img class="img-responsive img-rounded img-sizer" src="https://i.gyazo.com/fe6069b0123af8cdbb313d9c656977f4.png" alt="BDT portal settings page">
+        </div>
+      </div>
+    </div>
+    <div class="row container-fluid img-row">
+      <div class="col-md-6">
+      <div class="adjacent-wells img-thumbnail">
+        <img class="img-responsive img-rounded img-sizer" src="http://budgetstockphoto.com/bamers/stock_photo_spectrum.jpg" alt="stock photo">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="adjacent-wells img-thumbnail">
+          <img class="img-responsive img-rounded img-sizer" src="http://orig15.deviantart.net/740c/f/2007/129/7/4/stock_032__by_enchanted_stock.jpg" alt="stock photo">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <br>
+    <p class="text-center" style='margin-bottom: 15px;'>Contact Me</p>
+    <a href="#"><div class="text-divider"></div></a>
+    <div class="row">
+      <div class="col-md-6 padding-10">
+    <form id="contact-form">
+      <div class="formInput formInput-filled formInput-focused">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Name" required>
+      </div>
+        <div class="formInput formInput-filled formInput-focused">
+        <label for="email">Email Address</label>
+        <input id="email" type="text" placeholder="Email Address" required>
+      </div>
+        <div class="formInput">
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="text" placeholder="Phone Number" required>
+      </div>
+        <div class="formInput">
+        <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success m-l-5 m-b-5">Submit</button>
+    </form>
+    </div>
+    <div class="col-md-6">
+      <br>
+      <p class="m-r-5 m-l-5">Messages are always welcome! Whether it be a design critique or just a friendly hello, go ahead and shoot me a message, I'd be glad to have a chat.</p>
+    </div>
+    </div>
+  </section>
+  <footer>
+    <div id="footer-top" class="row text-center">
+    <div class="col-md-6">
+      <h2>About This Page</h2>
+      <p>Written and coded by Stephen St.Pierre</p>
+    </div>
+    <div class="col-md-6">
+      <h2>Around the Web</h2>
+      <!--<ul>
+        <li><button class="btn-linkedin"><a href="#"></a></button></li>
+        <li><button class="btn-github"><a href="#"></a></button></li>
+        <li><button class="btn-twitter"><a href="#"></a></button></li>
+        <li><button class="btn btn-social btn-twitter"><a href="#"></a></button></li>
+      </ul>-->
+
+      <a href="https://www.linkedin.com/in/steve-st-pierre-7692ab98" class="fa fa-linkedin"></a>
+      <a href="https://github.com/SSTPIERRE2" class="fa fa-github"></a>
+      <a href="https://www.freecodecamp.com/sstpierre2" class="fa fa-free-code-camp"></a>
+      <a href="https://codepen.io/steve_saint/" class="fa fa-codepen"></a>
+
+    </div>
+    </div>
+    <div id="footer-bottom" class="green-wrapper text-center">
+      <br>
+      © <script>
+        document.write(new Date().getFullYear())
+      </script> All Rights Reserved
+      <br><br>
+    </div>
+  </footer>
+  </main>
+</body>
+  
