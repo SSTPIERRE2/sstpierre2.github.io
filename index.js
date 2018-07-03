@@ -36,4 +36,5 @@ function onScroll(event){
             currLink.removeClass("active");
         }
     });
+   });
 }
