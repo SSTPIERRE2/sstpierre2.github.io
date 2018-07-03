@@ -15,7 +15,7 @@ $(document).ready(function () {
             menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
+            'scrollTop': $target.offset().top-35
         }, 500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
@@ -31,9 +31,7 @@ function onScroll(event){
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#menu-center ul li a').removeClass("active");
             currLink.addClass("active");
-        }
-        else{
-        else {
+        } else {
             currLink.removeClass("active");
         }
    });
