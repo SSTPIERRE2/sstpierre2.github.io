@@ -33,8 +33,8 @@ function onScroll(event){
             currLink.addClass("active");
         }
         else{
+        else {
             currLink.removeClass("active");
         }
-    });
    });
 }
